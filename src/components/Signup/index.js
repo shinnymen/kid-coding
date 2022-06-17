@@ -84,8 +84,8 @@ const SignUp = () => {
         <>
           <Container>
           <span></span>
-          <h4 className="success">
-            Vous etes maintenant inscris, nous vous recontactons dans l'immédiat!
+          <h4 className="white">
+            Vous etes maintenant inscrit, nous vous recontactons dans l'immédiat!
           </h4>
           </Container>
           
