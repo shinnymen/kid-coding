@@ -12,7 +12,7 @@ import {
   Text,
 } from "./SignupElements";
 import axios from "axios";
-import SignIn from "../Signin";
+
 
 const SignUp = () => {
   const [prenom, setPrenom] = useState("");
@@ -82,7 +82,7 @@ const SignUp = () => {
     <>
       {submit ? (
         <>
-          <SignIn />
+          
           <span></span>
           <h4 className="success">
             Enregistrement reussi, veuillez vous connecter!
