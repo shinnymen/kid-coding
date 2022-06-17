@@ -82,11 +82,13 @@ const SignUp = () => {
     <>
       {submit ? (
         <>
-          
+          <Container>
           <span></span>
           <h4 className="success">
-            Enregistrement reussi, veuillez vous connecter!
+            Vous etes maintenant inscris, nous vous recontactons dans l'immédiat!
           </h4>
+          </Container>
+          
         </>
       ) : (
         <Container>
