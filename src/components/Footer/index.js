@@ -41,8 +41,10 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Réseaux Sociaux</FooterLinkTitle>
-              <FooterLink to="https://www.instagram.com/kid.coding/">Instagram</FooterLink>
-              <FooterLink to="https://www.facebook.com/profile.php?id=100082201525842">
+              <FooterLink href="https://www.instagram.com/kid.coding/">
+                Instagram
+              </FooterLink>
+              <FooterLink href="https://www.facebook.com/profile.php?id=100082201525842">
                 Facebook
               </FooterLink>
               <FooterLink to="/">Twitter</FooterLink>
