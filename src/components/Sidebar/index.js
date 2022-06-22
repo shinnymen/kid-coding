@@ -21,13 +21,13 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="about" onClick={toggle}>
             À Propos
           </SidebarLink>
-          <SidebarLink to="découvrir" onClick={toggle}>
+          <SidebarLink to="Découvrir" onClick={toggle}>
             Atelier Collectif
           </SidebarLink>
-          <SidebarLink to="coursindividuel" onClick={toggle}>
+          <SidebarLink to="CoursIndividuel" onClick={toggle}>
             Cours Individuel
           </SidebarLink>
-          <SidebarLink to="coursdevacances" onClick={toggle}>
+          <SidebarLink to="CoursdeVacances" onClick={toggle}>
             Cours de Vacances
           </SidebarLink>
           <SidebarLink to="signup" onClick={toggle}>
