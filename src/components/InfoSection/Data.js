@@ -8,7 +8,7 @@ export const homeObjOne = {
   description:
     "Des ateliers collectifs pour introduire votre enfant à la programmation algorithmique. Et des initiations au language de programmation JavaScript et Python.",
   buttonLabel: "En Savoir plus",
-  info: "Les Cours sont planifiés 1 fois par semaine hors vacances du Lundi au Samedi. Le matériel et tous les gadgets sont fournis sur place. L'abonnement à l'année est de 900 euros TTC.",
+  info: "Les Cours sont planifiés 1 fois par semaine hors vacances du Lundi au Samedi. Le matériel et tous les gadgets sont fournis sur place. L'abonnement à l'année à partir de 724 euros TTC.",
   imgStart: false,
   img: require("../../images/Sans titre (2).png"),
   alt: "Computer",
