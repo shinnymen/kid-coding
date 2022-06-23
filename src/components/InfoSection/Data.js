@@ -8,6 +8,7 @@ export const homeObjOne = {
   description:
     "Des ateliers collectifs pour introduire votre enfant à la programmation algorithmique. Et des initiations au language de programmation JavaScript et Python.",
   buttonLabel: "En Savoir plus",
+  info: "Les Cours sont planifiés 1 fois par semaine hors vacances du Lundi au Samedi. Le matériel et tous les gadgets sont fournis sur place. L'abonnement à l'année est de 900 euros TTC.",
   imgStart: false,
   img: require("../../images/Sans titre (2).png"),
   alt: "Computer",
@@ -26,6 +27,7 @@ export const homeObjTwo = {
   description:
     "Pour une progression sur mesure et plus pertinente à domicile.",
   buttonLabel: "Réserver",
+  info: "Les Cours individuels se planifient selon les disponibilitées du professeur. L'heure de cours particulier est de 45 euros TTC.",
   imgStart: true,
   img: require("../../images/Sans titre (3).png"),
   alt: "Computer",
@@ -44,6 +46,7 @@ export const homeObjThree = {
   description:
     "Inscrivez votre enfant aux stages intensifs en période de vacances scolaires pour une progression rapide.",
   buttonLabel: "En savoir plus",
+  info: "Les stages intensif d'informatique se font en période de vacance scolaire sur 5 à 10 jours d'affilés. À partir de 250 euros TTC.",
   imgStart: true,
   img: require("../../images/Sans titre (4).png"),
   alt: "Computer",

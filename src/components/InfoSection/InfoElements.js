@@ -99,3 +99,45 @@ export const Img = styled.img`
   height: 360px;
   padding-right: 0;
 `;
+
+/*export const showInfos = styled.showInfos`
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.507);
+  animation: popup .3s ease forwards ;
+  transform-origin: center;
+  `;
+
+  export const infosContent = styled.infosContent`
+    position: relative;
+    top: 25%;
+    width: 600px;
+    margin: 0 auto;
+    color: $color-5;
+    background: $color-1;
+    border-radius: $borderRadius;
+    padding: 2rem;
+    box-shadow: 0 10px 10px #333;
+    animation: popup .6s ease forwards;
+    transform: scale(0);
+    transform-origin: center;
+
+    @keyframes popup {
+      to {
+        transform: scale(1);
+      } 
+    }
+  `;
+  export const head = styled.head`
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+  `;
+  export const h2 = styled.h2`
+    text-align: left;
+    margin-bottom: 1rem;
+  `;
+*/
