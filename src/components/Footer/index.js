@@ -39,14 +39,6 @@ const Footer = () => {
               <FooterLink to="/">Support</FooterLink>
               <FooterLink to="/">Sponsorships</FooterLink>
             </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Réseaux Sociaux</FooterLinkTitle>
-              <FooterLink to="/">Instagram</FooterLink>
-              <FooterLink to="/">
-                Facebook
-              </FooterLink>
-              <FooterLink to="/">Twitter</FooterLink>
-            </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
