@@ -57,10 +57,10 @@ const Footer = () => {
               <SocialIconLink href="https://www.instagram.com/kid.coding/" target="_blank" arial-label="Instagram" rel="noopener noreferrer">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="https://mobile.twitter.com/KidCoding2" target="_blank" arial-label="Twitter">
+              <SocialIconLink href="https://mobile.twitter.com/KidCoding2" target="_blank" arial-label="Twitter" rel="noopener noreferrer">
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" arial-label="Youtube">
+              <SocialIconLink href="https://m.youtube.com/channel/UCRlKpkcs8HxXmgXqH6gFctw/featured" target="_blank" arial-label="Youtube" rel="noopener noreferrer">
                 <FaYoutube />
               </SocialIconLink>
             </SocialIcons>
