@@ -27,7 +27,7 @@ export const homeObjTwo = {
   description:
     "Pour une progression sur mesure et plus pertinente à domicile.",
   buttonLabel: "Réserver",
-  info: "Les Cours individuels se planifient selon les disponibilitées du professeur. L'heure de cours particulier est de 45 euros TTC.",
+  info: "Les Cours individuels se planifient selon les disponibilités du professeur. L'heure de cours particulier est de 45 euros TTC.",
   imgStart: true,
   img: require("../../images/Sans titre (3).png"),
   alt: "Computer",
@@ -46,7 +46,7 @@ export const homeObjThree = {
   description:
     "Inscrivez votre enfant aux stages intensifs en période de vacances scolaires pour une progression rapide.",
   buttonLabel: "En savoir plus",
-  info: "Les stages intensif d'informatique se font en période de vacance scolaire sur 5 à 10 jours d'affilés. À partir de 250 euros TTC.",
+  info: "Les stages intensifs d'informatique se font en période de vacances scolaires sur 5 à 10 jours d'affilés. À partir de 250 euros TTC.",
   imgStart: true,
   img: require("../../images/Sans titre (4).png"),
   alt: "Computer",
@@ -63,7 +63,7 @@ export const homeObjFour = {
   topLine: "Nous Rejoindre",
   headline: "Pour s'inscrire, c'est vraiment facile",
   description:
-    "Nous fournissons le matériel nécessaire. Vous avez tout simplement besoin de vous inscrire et nous vous recontactons dans l'immédiat. Vous pouvez cliquer sur la rubrique s'inscrire en haut de la page!",
+    "Nous fournissons le matériel nécessaire. Vous avez tout simplement besoin de vous inscrire et nous vous recontactons dans l'immédiat. Vous pouvez cliquer sur la rubrique s'inscrire en haut de la page !",
   buttonLabel: "Commencer Maintenant",
   imgStart: false,
   img: require("../../images/Sans titre (5).png"),
