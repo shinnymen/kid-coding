@@ -65,7 +65,7 @@ const Footer = () => {
               <SocialIconLink href="https://www.instagram.com/kid.coding/" target="_blank" arial-label="Instagram" rel="noopener noreferrer">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" arial-label="Twitter">
+              <SocialIconLink href="https://mobile.twitter.com/KidCoding2" target="_blank" arial-label="Twitter">
                 <FaTwitter />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" arial-label="Youtube">
