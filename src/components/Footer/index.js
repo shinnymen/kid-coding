@@ -41,8 +41,8 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Réseaux Sociaux</FooterLinkTitle>
-              <FooterLink to="/https://www.instagram.com/kid.coding/">Instagram</FooterLink>
-              <FooterLink to="/https://www.facebook.com/profile.php?id=100082201525842">
+              <FooterLink to="/">Instagram</FooterLink>
+              <FooterLink to="/">
                 Facebook
               </FooterLink>
               <FooterLink to="/">Twitter</FooterLink>
@@ -59,10 +59,10 @@ const Footer = () => {
               reserved.
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" arial-label="Facebook">
+              <SocialIconLink href="https://www.facebook.com/profile.php?id=100082201525842" target="_blank" arial-label="Facebook" rel="noopener noreferrer">
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" arial-label="Instagram">
+              <SocialIconLink href="https://www.instagram.com/kid.coding/" target="_blank" arial-label="Instagram" rel="noopener noreferrer">
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" arial-label="Twitter">
