@@ -6,7 +6,7 @@ const NotFounds = () => {
        <div className="notFound">
            <div className="notFoundContent">
                <h3>This page doesn't exist !</h3>
-               <NavLink exact to="/">
+               <NavLink exact to="*">
                    <i className="fas fa-home"></i>
                    <span> Home</span>
                </NavLink>
