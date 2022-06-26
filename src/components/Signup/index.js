@@ -111,7 +111,7 @@ const SignUp = () => {
                   options={options}
                   defaultOption={defaultOption}
                   placeholder="Choisir l'école"
-                  onChange={setEcole}
+                  onChange={(e) => setEcole(e.target.value)}
                   value={ecole}
                   required
                 />
