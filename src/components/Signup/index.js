@@ -58,7 +58,7 @@ const SignUp = () => {
           method: "post",
           url: `${process.env.REACT_APP_API_URL}api/user/register`,
           data: {
-            ecole,
+            
             prenom,
             nom,
             email,
@@ -111,9 +111,9 @@ const SignUp = () => {
                   options={options}
                   defaultOption={defaultOption}
                   placeholder="Choisir l'école"
-                  onChange={(e) => setEcole(e.target.value)}
+                  onChange={setEcole}
                   value={ecole}
-                  required
+                  
                 />
                 <FormLabel htmlFor="prenom">Prenom</FormLabel>
                 <FormInput
