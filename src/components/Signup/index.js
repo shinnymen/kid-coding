@@ -11,10 +11,15 @@ import {
   Icon,
   Text,
 } from "./SignupElements";
+import Dropdown from "react-dropdown";
+import "react-dropdown/style.css";
 import axios from "axios";
 
+const options = ["Houilles", "Rochefort en Yvelines"];
+const defaultOption = options["Ecole"];
 
 const SignUp = () => {
+  const [ecole, setEcole] = useState("");
   const [prenom, setPrenom] = useState("");
   const [nom, setNom] = useState("");
   const [telephone, setTelephone] = useState("");
@@ -41,10 +46,11 @@ const SignUp = () => {
 
     passwordConfirmError.innerHTML = "";
     termsError.innerHTML = "";
-  
+
     if (password !== controlPassword || terms.checked) {
       if (password !== controlPassword) {
-        passwordConfirmError.innerHTML = "Les mots de passe ne correspondent pas";
+        passwordConfirmError.innerHTML =
+          "Les mots de passe ne correspondent pas";
         if (!terms.checked)
           termsError.innerHTML = "Veuillez valider les conditions generales";
       } else {
@@ -52,6 +58,7 @@ const SignUp = () => {
           method: "post",
           url: `${process.env.REACT_APP_API_URL}api/user/register`,
           data: {
+            ecole,
             prenom,
             nom,
             email,
@@ -76,19 +83,18 @@ const SignUp = () => {
       }
     }
   };
- 
 
   return (
     <>
       {submit ? (
         <>
           <Container>
-          <span></span>
-          <h4 className="white">
-            Vous etes maintenant inscrit, nous vous recontactons dans l'immédiat!
-          </h4>
+            <span></span>
+            <h4 className="white">
+              Vous etes maintenant inscrit, nous vous recontactons dans
+              l'immédiat!
+            </h4>
           </Container>
-          
         </>
       ) : (
         <Container>
@@ -97,6 +103,18 @@ const SignUp = () => {
             <FormContent onSubmit={handleRegister}>
               <Form action="#">
                 <FormH1>S'inscrire</FormH1>
+                <FormLabel htmlFor="ecole">Ecole</FormLabel>
+                <Dropdown
+                  type="text"
+                  name="ecole"
+                  id="ecole"
+                  options={options}
+                  defaultOption={defaultOption}
+                  placeholder="Choisir l'école"
+                  onChange={setEcole}
+                  value={ecole}
+                  required
+                />
                 <FormLabel htmlFor="prenom">Prenom</FormLabel>
                 <FormInput
                   type="text"
