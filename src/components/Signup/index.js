@@ -58,7 +58,7 @@ const SignUp = () => {
           method: "post",
           url: `${process.env.REACT_APP_API_URL}api/user/register`,
           data: {
-            
+            ecole,
             prenom,
             nom,
             email,
