@@ -105,7 +105,6 @@ const SignUp = () => {
                 <FormH1>S'inscrire</FormH1>
                 <FormLabel htmlFor="ecole">Ecole</FormLabel>
                 <Dropdown
-                  type="text"
                   name="ecole"
                   id="ecole"
                   options={options}
