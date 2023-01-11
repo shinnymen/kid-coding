@@ -40,13 +40,7 @@ const Services = () => {
             distance ou à domicile.
           </ServicesP>
         </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>Cours de Graphisme</ServicesH2>
-          <ServicesP>
-            Il est également possible.....
-          </ServicesP>
-        </ServicesCard>
+        
       </ServicesWrapper>
     </ServicesContainer>
   );
