@@ -24,6 +24,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="Découvrir" onClick={toggle}>
             Atelier Collectif
           </SidebarLink>
+          <SidebarLink to="Graphisme" onClick={toggle}>
+            Cours de Graphisme
+          </SidebarLink>
           <SidebarLink to="CoursIndividuel" onClick={toggle}>
             Cours Individuel
           </SidebarLink>

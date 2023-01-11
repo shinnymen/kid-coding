@@ -8,7 +8,7 @@ export const homeObjOne = {
   description:
     "Des ateliers collectifs pour introduire votre enfant à la programmation algorithmique. Et des initiations au language de programmation JavaScript et Python.",
   buttonLabel: "En Savoir plus",
-  info: "Les Cours sont planifiés 1 fois par semaine hors vacances du Lundi au Samedi. Le matériel et tous les gadgets sont fournis sur place. L'abonnement à l'année à partir de 724 euros TTC.",
+  info: "Les Cours sont planifiés 1 fois par semaine hors vacances du Lundi au Samedi. Le matériel et tous les gadgets sont fournis sur place. L'abonnement à l'année à partir de 890 euros TTC.",
   imgStart: false,
   img: require("../../images/Sans titre (2).png"),
   alt: "Computer",
@@ -38,9 +38,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: "CoursdeVacances",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "Cours de vacances",
   headline: "Geek Mode",
   description:
@@ -50,9 +50,9 @@ export const homeObjThree = {
   imgStart: true,
   img: require("../../images/Sans titre (4).png"),
   alt: "Computer",
-  dark: true,
-  primary: true,
-  darkText: false
+  dark: false,
+  primary: false,
+  darkText: true
 };
 
 export const homeObjFour = {
@@ -71,4 +71,23 @@ export const homeObjFour = {
   dark: false,
   primary: false,
   darkText: true
+};
+
+export const homeObjFive = {
+  id: "Graphisme",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Cours de Graphisme",
+  headline: "Artist",
+  description:
+    "Inscrivez votre enfant aux cours de graphisme, animation 3D. L'Inscription pour la rentrer de Février vous engage jusqu'au mois de Juin. À partir de 500 TTC. ",
+  buttonLabel: "En savoir plus",
+  info: "Dessin sur tablette graphique.",
+  imgStart: true,
+  img: require("../../images/nicola-gallea-cp04v2.jpg"),
+  alt: "Computer",
+  dark: true,
+  primary: true,
+  darkText: false
 };

@@ -5,6 +5,7 @@ import InfoSection from "../components/InfoSection";
 
 import {
   homeObjFour,
+  homeObjFive,
   homeObjOne,
   homeObjThree,
   homeObjTwo,
@@ -29,7 +30,9 @@ const Home = () => {
       <InfoSection {...homeObjTwo} />
       <Services />
       <InfoSection {...homeObjThree} />
+      <InfoSection {...homeObjFive} />
       <InfoSection {...homeObjFour} />
+      
       <Footer />
     </>
   );
