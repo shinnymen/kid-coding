@@ -14,7 +14,7 @@ export const homeObjOne = {
   alt: "Computer",
   dark: true,
   primary: true,
-  darkText: false
+  darkText: false,
 };
 
 export const homeObjTwo = {
@@ -24,8 +24,7 @@ export const homeObjTwo = {
   lightTextDesc: false,
   topLine: "Cours Individuel",
   headline: "Hacker Level",
-  description:
-    "Pour une progression sur mesure et plus pertinente à domicile.",
+  description: "Pour une progression sur mesure et plus pertinente à domicile.",
   buttonLabel: "Réserver",
   info: "Les Cours individuels se planifient selon les disponibilités du professeur. L'heure de cours particulier est de 45 euros TTC.",
   imgStart: true,
@@ -33,7 +32,7 @@ export const homeObjTwo = {
   alt: "Computer",
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 
 export const homeObjThree = {
@@ -52,7 +51,7 @@ export const homeObjThree = {
   alt: "Computer",
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 
 export const homeObjFour = {
@@ -70,7 +69,7 @@ export const homeObjFour = {
   alt: "Paper",
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 
 export const homeObjFive = {
@@ -81,7 +80,7 @@ export const homeObjFive = {
   topLine: "Cours de Graphisme",
   headline: "Artist",
   description:
-    "Inscrivez votre enfant aux cours de graphisme, animation 3D. L'Inscription pour la rentrer de Février vous engage jusqu'au mois de Juin. À partir de 500 TTC. ",
+    "Inscrivez votre enfant aux cours de graphisme, animation 3D. L'Inscription pour la rentrer de Février vous engage jusqu'au mois de Juin. À partir de 280 TTC. ",
   buttonLabel: "En savoir plus",
   info: "Dessin sur tablette graphique.",
   imgStart: true,
@@ -89,5 +88,5 @@ export const homeObjFive = {
   alt: "Computer",
   dark: true,
   primary: true,
-  darkText: false
+  darkText: false,
 };
