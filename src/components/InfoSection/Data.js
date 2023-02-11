@@ -46,7 +46,7 @@ export const homeObjThree = {
   description:
     "Inscrivez votre enfant aux stages intensifs en période de vacances scolaires pour une progression rapide.",
   buttonLabel: "En savoir plus",
-  info: "Les stages intensifs d'informatique se font en période de vacances scolaires sur 5 à 10 jours d'affilés. À partir de 250 euros TTC.",
+  info: "Les stages intensifs d'informatique se font en période de vacances scolaires sur 5 à 10 jours d'affilés. À partir de 179 euros TTC / Semaine.",
   imgStart: true,
   img: require("../../images/Sans titre (4).png"),
   alt: "Computer",
