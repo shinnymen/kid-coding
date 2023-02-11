@@ -6,7 +6,7 @@ const SignupPage = () => {
   return (
     <>
       <ScrollToTop />
-      <SignUp />
+      <div>Site en maintenance</div>
     </>
   );
 };
