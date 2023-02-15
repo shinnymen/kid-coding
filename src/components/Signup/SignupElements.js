@@ -107,3 +107,11 @@ export const Text = styled.span`
   color: #fff;
   font-size: 14px;
 `;
+
+export const FormH4 = styled.h4`
+  margin-bottom: auto;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+`;

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {
   Container,
+  FormH4,
   Form,
   FormButton,
   FormContent,
@@ -88,11 +89,12 @@ const SignUp = () => {
       {submit ? (
         <>
           <Container>
+            <Icon to="/">Kid Coding</Icon>
             <span></span>
-            <h4 className="white">
-              Vous etes maintenant inscrit, nous vous recontactons dans
-              l'immédiat!
-            </h4>
+            <FormH4 className="white">
+              Vous etes maintenant inscrit! Nous revenons vers vous dans un bref
+              délai!
+            </FormH4>
           </Container>
         </>
       ) : (
