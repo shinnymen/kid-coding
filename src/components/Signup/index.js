@@ -92,8 +92,7 @@ const SignUp = () => {
             <Icon to="/">Kid Coding</Icon>
             <span></span>
             <FormH4 className="white">
-              Vous etes maintenant inscrit! Nous revenons vers vous dans un bref
-              délai!
+              Vous êtes maintenant inscrit! Happy Coding!
             </FormH4>
           </Container>
         </>
