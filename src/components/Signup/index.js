@@ -94,7 +94,6 @@ const SignUp = () => {
             <FormH4 className="white">
               Vous êtes maintenant inscrit! Happy Coding!
             </FormH4>
-            <img src="/Front-end/src/images/LogoKidCoding.png" alt="logo" />
           </Container>
         </>
       ) : (

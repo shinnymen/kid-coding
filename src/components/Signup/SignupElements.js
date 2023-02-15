@@ -118,9 +118,4 @@ export const FormH4 = styled.h4`
   display: flex;
 `;
 
-export const img = styled.img`
-width: 100px;
-height: 100px;
-justify-content: center;
-align-items: center;
-`
+
