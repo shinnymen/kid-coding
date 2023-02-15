@@ -88,7 +88,7 @@ const SignUp = () => {
     <>
       {submit ? (
         <>
-          <Container>
+          <Container height="100%">
             <Icon to="/">Kid Coding</Icon>
             <span></span>
             <FormH4 className="white">

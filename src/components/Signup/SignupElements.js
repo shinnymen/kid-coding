@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Container = styled.div`
-  min-height: 200px;
+  min-height: 1000px;
   position: relative;
   top: 0;
   bottom: 0;
@@ -111,7 +111,9 @@ export const Text = styled.span`
 export const FormH4 = styled.h4`
   margin-bottom: auto;
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   text-align: center;
+  padding: 100px;
+  display: flex;
 `;
