@@ -15,13 +15,13 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id="services">
-      <ServicesH1> Notre Pédagogie</ServicesH1>
+      <ServicesH1> Notre pédagogie</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
           <ServicesH2>Adapté</ServicesH2>
           <ServicesP>
-            Nos cours sont organisés en fonction de l'age de votre enfant.
+            Nos cours sont organisés en fonction de l'âge de votre enfant.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>

@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: "Atelier Collectif",
   headline: "Initiation",
   description:
-    "Des ateliers collectifs pour introduire votre enfant à la programmation algorithmique. Et des initiations au language de programmation JavaScript et Python.",
+    "Des ateliers collectifs pour introduire votre enfant à la programmation algorithmique. Et des initiations aux languages de programmation JavaScript et Python.",
   buttonLabel: "En Savoir plus",
   info: "Les Cours sont planifiés 1 fois par semaine hors vacances du Lundi au Samedi. Le matériel et tous les gadgets sont fournis sur place. L'abonnement à l'année à partir de 890 euros TTC.",
   imgStart: false,
@@ -45,7 +45,7 @@ export const homeObjThree = {
   description:
     "Inscrivez votre enfant aux stages intensifs en période de vacances scolaires pour une progression rapide.",
   buttonLabel: "En savoir plus",
-  info: "Les stages intensifs d'informatique se font en période de vacances scolaires sur 5 à 10 jours d'affilés. À partir de 179 euros TTC / Semaine.",
+  info: "Les stages intensifs d'informatique se font en période de vacances scolaires sur 5 jours d'affilés. À partir de 179 euros TTC / Semaine.",
   imgStart: true,
   img: require("../../images/Sans titre (4).png"),
   alt: "Computer",
@@ -80,7 +80,7 @@ export const homeObjFive = {
   topLine: "Cours de Graphisme",
   headline: "Artist",
   description:
-    "Inscrivez votre enfant aux cours de graphisme, animation 3D. L'Inscription pour la rentrer de Février vous engage jusqu'au mois de Juin. À partir de 280 TTC. ",
+    "Inscrivez votre enfant aux cours de graphisme, animation 3D. L'inscription pour la rentrée de Février vous engage jusqu'au mois de Juin. À partir de 280 TTC. ",
   buttonLabel: "En savoir plus",
   info: "Dessin sur tablette graphique.",
   imgStart: true,
