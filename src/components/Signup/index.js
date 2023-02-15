@@ -11,6 +11,7 @@ import {
   FormWrap,
   Icon,
   Text,
+  
 } from "./SignupElements";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
@@ -193,12 +194,12 @@ const SignUp = () => {
                 />
                 <div className="password-confirm error"></div>
                 <input type="checkbox" id="terms" />
-                <label htmlFor="terms">
+                <FormLabel htmlFor="terms">
                   J'accepte les{" "}
                   <a href="/" target="_blank" rel="noopener noreferrer">
                     conditions generales
                   </a>
-                </label>
+                </FormLabel>
                 <div className="terms error"></div>
                 <br />
                 <FormButton type="submit">Valider inscription</FormButton>

@@ -118,4 +118,6 @@ export const FormH4 = styled.h4`
   display: flex;
 `;
 
-
+export const label = styled.label`
+color: #fff;
+`
