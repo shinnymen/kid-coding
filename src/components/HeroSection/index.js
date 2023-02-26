@@ -26,7 +26,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1> La programmation informatique </HeroH1>
-        <HeroP>De 7 à 14 ans</HeroP>
+        <HeroP>De 7 à 17 ans</HeroP>
         <HeroBtnWrapper>
           <Button
             to="signup"
