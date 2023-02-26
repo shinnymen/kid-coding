@@ -11,7 +11,6 @@ import {
   FormWrap,
   Icon,
   Text,
-  
 } from "./SignupElements";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
@@ -54,7 +53,7 @@ const SignUp = () => {
         passwordConfirmError.innerHTML =
           "Les mots de passe ne correspondent pas";
         if (!terms.checked)
-          termsError.innerHTML = "Veuillez valider les conditions generales";
+          termsError.innerHTML = "Veuillez valider les conditions générales";
       } else {
         await axios({
           method: "post",
