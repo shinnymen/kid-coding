@@ -1,4 +1,4 @@
-Redirecting to https://www.kid-coding.net/robots.txt
+
 
 User-agent: Googlebot
 Disallow: /nogooglebot/
