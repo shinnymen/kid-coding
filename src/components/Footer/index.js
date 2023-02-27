@@ -51,16 +51,16 @@ const Footer = () => {
               reserved.
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="https://www.facebook.com/profile.php?id=100082201525842" target="_blank" arial-label="Facebook" rel="noopener noreferrer">
+              <SocialIconLink href="https://www.facebook.com/profile.php?id=100082201525842" target="_blank" arial-label="Facebook" alt="Facebook" rel="noopener noreferrer">
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href="https://www.instagram.com/kid.coding/" target="_blank" arial-label="Instagram" rel="noopener noreferrer">
+              <SocialIconLink href="https://www.instagram.com/kid.coding/" target="_blank" arial-label="Instagram"  alt="Instagram" rel="noopener noreferrer">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="https://mobile.twitter.com/KidCoding2" target="_blank" arial-label="Twitter" rel="noopener noreferrer">
+              <SocialIconLink href="https://mobile.twitter.com/KidCoding2" target="_blank" arial-label="Twitter"  alt="Twitter" rel="noopener noreferrer">
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href="https://m.youtube.com/channel/UCRlKpkcs8HxXmgXqH6gFctw/featured" target="_blank" arial-label="Youtube" rel="noopener noreferrer">
+              <SocialIconLink href="https://m.youtube.com/channel/UCRlKpkcs8HxXmgXqH6gFctw/featured" target="_blank" arial-label="Youtube"  alt="Youtube" rel="noopener noreferrer">
                 <FaYoutube />
               </SocialIconLink>
             </SocialIcons>
