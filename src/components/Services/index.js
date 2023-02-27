@@ -18,14 +18,14 @@ const Services = () => {
       <ServicesH1> Notre pédagogie</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
+          <ServicesIcon src={Icon1} alt="téléchargement connaissance" />
           <ServicesH2>Adapté</ServicesH2>
           <ServicesP>
             Nos cours sont organisés en fonction de l'âge de votre enfant.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon2} />
+          <ServicesIcon src={Icon2} alt="co-working" />
           <ServicesH2>Boot Camp</ServicesH2>
           <ServicesP>
             Pour répondre à toutes les interrogations de votre enfant, nos cours
@@ -33,7 +33,7 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          <ServicesIcon src={Icon3} alt="Cours Individuel" />
           <ServicesH2>Cours Perso</ServicesH2>
           <ServicesP>
             Il est également possible de réserver des cours personnels à
