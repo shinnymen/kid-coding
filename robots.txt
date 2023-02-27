@@ -1,10 +1,9 @@
-# brandonsbaseballcards.com/robots.txt
-# Tell Google not to crawl any URLs in the shopping cart or images in the icons folder,
-# because they won't be useful in Google Search results.
+Redirecting to https://www.kid-coding.net/robots.txt
+
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
 User-agent: *
-disallow: /downloads/
+Allow: /
 
-user-agent: magicsearchbot
-disallow: /uploads/
-
-sitemap: https://kid-coding.net/sitemap-file.xml
+Sitemap: https://www.kid-coding.net/sitemap.xml
