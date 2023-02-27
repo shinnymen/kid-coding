@@ -39,6 +39,7 @@ const HeroSection = () => {
             spy={true}
             exact="true"
             offset={-80}
+            href="https://kid-coding.net/signup"
           >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
