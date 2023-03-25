@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-// import emailjs from '@emailjs/browser';
+import React, { useState, UseRef, useRef } from "react";
+import emailjs from '@emailjs/browser';
 import {
   Container,
   FormH4,
@@ -83,18 +83,18 @@ const SignUp = () => {
       }
     }
   };
-// const form = useRef();
-//   const sendEmail = (e) => {
-//     e.preventDefault();
+const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-//     emailjs.sendForm('service_d8kvh0w', 'template_mo4png8', form.current, '8oBATgL54Sm1nqs4K')
-//       .then((result) => {
-//           console.log(result.text);
-//           console.log('message sent');
-//       }, (error) => {
-//           console.log(error.text);
-//       });
-//     };
+    emailjs.sendForm('service_d8kvh0w', 'template_mo4png8', form.current, '8oBATgL54Sm1nqs4K')
+      .then((result) => {
+          console.log(result.text);
+          console.log('message sent');
+      }, (error) => {
+          console.log(error.text);
+      });
+    };
   return (
     <>
       {submit ? (
@@ -111,8 +111,8 @@ const SignUp = () => {
         <Container>
           <FormWrap>
             <Icon to="/">Kid Coding</Icon>
-            <FormContent  onSubmit={handleRegister}>
-              <Form action="#">
+            <FormContent ref={form} onSubmit={handleRegister}>
+              <Form onSubmit={sendEmail} action="#">
                 <FormH1>S'inscrire</FormH1>
                 <FormLabel htmlFor="ecole">École</FormLabel>
                 <Dropdown
