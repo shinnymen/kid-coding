@@ -111,8 +111,8 @@ const form = useRef();
         <Container>
           <FormWrap>
             <Icon to="/">Kid Coding</Icon>
-            <FormContent  onSubmit={handleRegister & sendEmail} >
-              <Form ref={form} action="#">
+            <FormContent  onSubmit={handleRegister } >
+              <Form ref={form}  action="#">
                 <FormH1>S'inscrire</FormH1>
                 <FormLabel htmlFor="ecole">École</FormLabel>
                 <Dropdown
@@ -215,7 +215,7 @@ const form = useRef();
                 </FormLabel>
                 <div className="terms error"></div>
                 <br />
-                <FormButton type="submit">Valider</FormButton>
+                <FormButton type="submit" onClick={sendEmail}>Valider</FormButton>
 
                 {/* <Text>Mot de passe oublié</Text> */}
               </Form>
