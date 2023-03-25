@@ -113,7 +113,7 @@ const form = useRef();
           <FormWrap>
             <Icon to="/">Kid Coding</Icon>
             <FormContent onSubmit={handleRegister}>
-              <Form ref={form} onSubmit={sendEmail} action="#">
+              <Form ref={form} onSubmit={handleRegister && sendEmail} action="#">
                 <FormH1>S'inscrire</FormH1>
                 <FormLabel htmlFor="ecole">Ecole</FormLabel>
                 <Dropdown
