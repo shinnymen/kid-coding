@@ -1,5 +1,5 @@
-import React, { useState} from "react";
-
+import React, { useState, useRef } from "react";
+import emailjs from '@emailjs/browser';
 import {
   Container,
   FormH4,
@@ -11,7 +11,6 @@ import {
   FormLabel,
   FormWrap,
   Icon,
-  Text,
 } from "./SignupElements";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
@@ -84,7 +83,18 @@ const SignUp = () => {
       }
     }
   };
+const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
+    emailjs.sendForm('service_d8kvh0w', 'template_mo4png8', form.current, '8oBATgL54Sm1nqs4K')
+      .then((result) => {
+          console.log(result.text);
+          console.log('message sent');
+      }, (error) => {
+          console.log(error.text);
+      });
+    };
   return (
     <>
       {submit ? (
@@ -101,8 +111,8 @@ const SignUp = () => {
         <Container>
           <FormWrap>
             <Icon to="/">Kid Coding</Icon>
-            <FormContent onSubmit={handleRegister}>
-              <Form  action="#">
+            <FormContent  onSubmit={handleRegister & sendEmail} >
+              <Form ref={form} action="#">
                 <FormH1>S'inscrire</FormH1>
                 <FormLabel htmlFor="ecole">École</FormLabel>
                 <Dropdown
