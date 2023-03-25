@@ -112,7 +112,7 @@ const SignUp = () => {
           <FormWrap>
             <Icon to="/">Kid Coding</Icon>
             <FormContent  onSubmit={handleRegister} >
-              <Form ref={form}  action="#">
+              <Form  action="#">
                 <FormH1>S'inscrire</FormH1>
                 <FormLabel htmlFor="ecole">École</FormLabel>
                 <Dropdown
